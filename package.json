@@ -1,0 +1,35 @@
+{
+  "name": "@taschetta/database",
+  "version": "0.0.1",
+  "description": "mysql query builder inspired by modgodb's interface",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "main": "node -r dotenv/config index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Taschetta/database.git"
+  },
+  "keywords": [
+    "database",
+    "sql",
+    "mysql",
+    "mongodb",
+    "query",
+    "builder"
+  ],
+  "author": "Santiago Taschetta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Taschetta/database/issues"
+  },
+  "homepage": "https://github.com/Taschetta/database#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^12.0.3"
+  }
+}
